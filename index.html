@@ -16,7 +16,7 @@
         <p class="para">I'm a Indian based web designer & front‑end developer focused on
          crafting clean & user‑friendly experiences, I am passionate about building
         excellent software that improves the lives of those around me.</p>
-        <p id="about">MORE ABOUT ME<button id="arrow">&#x2192</button></p>
+        <button id="about" onclick="more_about_me()">MORE ABOUT ME<span id="arrow">&#x2192</span></button>
     </div>
     <div id="one">
         <div id="two">
@@ -32,9 +32,12 @@
     </div>
     <script>
         function home(){
-            window.open("file:///C:/Users/prabhadhithya/AppData/Roaming/JetBrains/PyCharmCE2021.2/scratches/myweb/index.html","_self")
+            window.open("index.html","_self")
         }
         function about(){
+            window.open("about.html","_self")
+        }
+        function more_about_me(){
             window.open("about.html","_self")
         }
         function portfolio(){
