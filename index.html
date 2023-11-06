@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>www.personal website</title>
+    <link rel="stylesheet" href="myweb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="img"></div>
+    <div id="text">
+        <h1 class="name">I'M PRABHADHITHYA</h1>
+        <h1 class="job">FRONTEND DEVELOPER</h1>
+        <p class="para">I'm a Indian based web designer & front‑end developer focused on
+         crafting clean & user‑friendly experiences, I am passionate about building
+        excellent software that improves the lives of those around me.</p>
+        <p id="about">MORE ABOUT ME<button id="arrow">&#x2192</button></p>
+    </div>
+    <div id="one">
+        <div id="two">
+            <button class="theme" onclick="theme()">💡</button>
+        </div>
+        <div id="three">
+            <button class="button" onclick="home()"><span class="icon">🏠</span><span class="btext">Home</span></button>
+            <button class="button" onclick="about()"><span class="icon">🧑</span><span class="btext">About</span></button>
+            <button class="button" onclick="portfolio()"><span class="icon">💼</span><span class="btext">Portfolio</span></button>
+            <button class="button" onclick="contact()"><span class="icon1">✉</span><span class="btext">Contact</span></button>
+            <button class="button" onclick="blog()"><span class="icon">🌐</span><span class="btext">Blog</span></button>
+        </div>
+    </div>
+    <script>
+        function home(){
+            window.open("file:///C:/Users/prabhadhithya/AppData/Roaming/JetBrains/PyCharmCE2021.2/scratches/myweb/index.html","_self")
+        }
+        function about(){
+            window.open("about.html","_self")
+        }
+        function portfolio(){
+            window.open("portfolio.html","_self")
+        }
+        function theme() {
+            var element = document.body;
+            element.classList.toggle("theme");
+        }
+    </script>
+</body>
+</html>

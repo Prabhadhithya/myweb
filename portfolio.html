@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>www.personal website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="portfolio">
+        <div id="heading">
+            <h1>My Work</h1>
+        </div>
+        <div class="project-btn">
+            <button class="portfo-btn" onclick="webproject()">Web-project</button>
+        </div>
+        <div class="project-btn">
+            <button class="portfo-btn" onclick="giftcardproject()">Giftcard-project</button>
+        </div>
+        <div class="project-btn">
+            <button class="portfo-btn" onclick="collegeproject()">College-project</button>
+        </div>
+    </div>
+    <div id="one">
+        <div id="two">
+            <button class="theme" onclick="theme()">💡</button>
+        </div>
+        <div id="three">
+            <button class="button" onclick="home()"><span class="icon">🏠</span><span class="btext">Home</span></button>
+            <button class="button" onclick="about()"><span class="icon">🧑</span><span class="btext">About</span></button>
+            <button class="button" onclick="portfolio()"><span class="icon">💼</span><span class="btext">Portfolio</span></button>
+            <button class="button" onclick="contact()"><span class="icon1">✉</span><span class="btext">Contact</span></button>
+            <button class="button" onclick="blog()"><span class="icon">🌐</span><span class="btext">Blog</span></button>
+        </div>
+    </div>
+    <script>
+        function home(){
+            window.open("file:///C:/Users/prabhadhithya/AppData/Roaming/JetBrains/PyCharmCE2021.2/scratches/myweb/index.html","_self")
+        }
+        function about(){
+            window.open("about.html","_self")
+        }
+        function theme() {
+            var element = document.body;
+            element.classList.toggle("theme");
+        }
+        function webproject(){
+            window.open("https://prabhadhithya.github.io/myweb/","_blank")
+        }
+        function giftcardproject(){
+            window.open("https://prabhadhithya.github.io/bday/","_blank")
+        }
+        function collegeproject(){
+            window.open("https://drive.google.com/file/d/1BJfxqbTwKrtVk2eQisALvljW4oPUSUMj/view?usp=drivesdk","_blank")
+        }
+    </script>
+</body>
