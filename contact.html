@@ -1,25 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>www.personal website</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="portfolio">
-        <div id="heading">
-            <h1>My Work</h1>
-        </div>
-        <div class="project-btn">
-            <button class="portfo-btn" onclick="webproject()">Web-project</button>
-        </div>
-        <div class="project-btn">
-            <button class="portfo-btn" onclick="giftcardproject()">Giftcard-project</button>
-        </div>
-        <div class="project-btn">
-            <button class="portfo-btn" onclick="collegeproject()">College-project</button>
+    <div id="contact-div">
+        <h1 id="heading">YOU CAN GET ME HERE</h1>
+        <div id="sub-contact-div">
+            <div id="mail">
+                <p class="mail-logo">&#128231</p>
+                <p><a href="mailto:prabhadhithya987@gmail.com">prabhadhithya987@gmail.com</a></p>
+            </div>
+            <div id="linkedin">
+                <p class="linkedin-logo"></p>
+                <p><a href="www.linkedin.com/in/prabhadhithya-chalumesh-kontham-68a205186">Linkedin</a></p>
+            </div>
+            <div id="phone">
+                <p class="ph-logo">&#128222</p>
+                <p>+91 9346195132</p>
+            </div>
         </div>
     </div>
     <div id="one">
@@ -40,21 +44,16 @@
         function about(){
             window.open("about.html","_self")
         }
-        function contact(){
-            window.open("contact.html","_self")
+        function more_about_me(){
+            window.open("about.html","_self")
+        }
+        function portfolio(){
+            window.open("portfolio.html","_self")
         }
         function theme() {
             var element = document.body;
             element.classList.toggle("theme");
         }
-        function webproject(){
-            window.open("https://prabhadhithya.github.io/myweb/","_blank")
-        }
-        function giftcardproject(){
-            window.open("https://prabhadhithya.github.io/bday/","_blank")
-        }
-        function collegeproject(){
-            window.open("https://drive.google.com/file/d/1BJfxqbTwKrtVk2eQisALvljW4oPUSUMj/view?usp=drivesdk","_blank")
-        }
     </script>
 </body>
+</html>
