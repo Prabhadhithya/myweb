@@ -3,8 +3,8 @@ body{
         font-family:kanit, sans-serif;
         display:flex;
         background:black;
-        height:700px;
-        width:1500px;
+        height:100%;
+        width:100%;
 }
 @-ms-viewport{
         width: device-width;

@@ -4,8 +4,8 @@ body{
         display:flex;
         justify-content:center;
         background:black;
-        height:700px;
-        width:1500px;
+        height:100%;
+        width:100%;
 }
 #left{
         width:600px;
