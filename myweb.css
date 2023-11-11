@@ -6,7 +6,9 @@ body{
         height:700px;
         width:1500px;
 }
-
+@-ms-viewport{
+        width: device-width;
+}
 #img{
         margin:30px 30px 30px 30px;
         width:500px;
